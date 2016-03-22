@@ -9,7 +9,7 @@ class NotesController < ApplicationController
 	end
 
 	def new
-		@note = Note.new
+		@note = current_user.notes.build
 	end
 
 	def update
@@ -21,7 +21,7 @@ class NotesController < ApplicationController
 	end
 
 	def create
-		@note = Note.new(notes_params)
+		@note = current_user.notes.build(notes_params)
 		if @note.save
 			redirect_to @note
 		else
