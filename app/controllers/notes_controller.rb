@@ -2,7 +2,7 @@ class NotesController < ApplicationController
 
 	before_action :get_note,only: [:show,:update,:destroy,:edit]
 	def index
-		@notes = Note.all.order("created_at DESC")
+		@notes = current_user.notes.all.order("created_at DESC")
 	end
 
 	def show
