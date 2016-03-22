@@ -2,9 +2,15 @@ Rails.application.routes.draw do
   devise_for :users
   get 'welcome/index'
 
+  resources :notes
+
+  authenticated :user do
+    root 'notes#index',as: "authenticated_root"
+  end
+
   root 'welcome#index'
 
-  resources :notes
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
