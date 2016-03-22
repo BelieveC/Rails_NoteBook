@@ -1,6 +1,6 @@
 class NotesController < ApplicationController
 
-	before_action :get_note only: [:show,:update,:destroy,:edit]
+	before_action :get_note,only: [:show,:update,:destroy,:edit]
 	def index
 		@notes = Note.all.order("created_at DESC")
 	end
@@ -43,6 +43,6 @@ class NotesController < ApplicationController
 		end
 
 		def notes_params
-			params(:note).require(:title,:content)
+			params.require(:note).permit(:title,:content)
 		end
 end
