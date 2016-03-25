@@ -1,9 +1,32 @@
-This is NoteBook Rails App
+This is NoteBook App In Rails
 
 This App have following ability:
-	1)Authentication
-	2)Create Notes
-	3)Update Notes
-	3)Delete Notes
+
+1)Authentication
+
+2)Create Notes
+
+3)Update Notes
+
+4)Delete Notes
+
+Following are Preview Images of ABove App:
+
+1)Index => https://raw.githubusercontent.com/BelieveC/Rails_NoteBook/master/NoteBook_Preview_Images/indexloggedin.png
+
+2)Index(Without Logged In) => https://raw.githubusercontent.com/BelieveC/Rails_NoteBook/master/NoteBook_Preview_Images/indexwol.png
+
+ => https://raw.githubusercontent.com/BelieveC/Rails_NoteBook/master/NoteBook_Preview_Images/withoutloggedin.png
+ 
+3)Edit => https://raw.githubusercontent.com/BelieveC/Rails_NoteBook/master/NoteBook_Preview_Images/edit.png
+
+4)New => https://raw.githubusercontent.com/BelieveC/Rails_NoteBook/master/NoteBook_Preview_Images/new.png
+
+5)Show => https://raw.githubusercontent.com/BelieveC/Rails_NoteBook/master/NoteBook_Preview_Images/show.png
+
+6) Login => https://raw.githubusercontent.com/BelieveC/Rails_NoteBook/master/NoteBook_Preview_Images/login.png
+
+7)SignUp => https://raw.githubusercontent.com/BelieveC/Rails_NoteBook/master/NoteBook_Preview_Images/signup.png
+
 
 Have a look at It....Its Damn Cooooooool...Cheers!
