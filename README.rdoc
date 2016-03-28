@@ -1,9 +1,0 @@
-This is NoteBook Rails App
-
-This App have following ability:
-	1)Authentication
-	2)Create Notes
-	3)Update Notes
-	3)Delete Notes
-
-Have a look at It....Its Damn Cooooooool...Cheers!
