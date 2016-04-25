@@ -17,5 +17,5 @@ App Features
 ------------------------------------------------------------
 I hope you would love this NoteBook App and Don't forget to share with your friends if you feel it is worth sharing.....Cheers!
 --------------------------------------------------------------
-For more Rails stuff,Follow me @[BelieveC](https://github.com/BelieveC)
+For more Interesting stuff,Follow me [@BelieveC](https://github.com/BelieveC)
 
